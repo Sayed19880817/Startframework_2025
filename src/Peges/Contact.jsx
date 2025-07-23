@@ -70,9 +70,9 @@ export default function Contact() {
             <span className={ageEmpty ? 'SlideDown' : 'SlideUp'}>UserAge:</span>
           </label>
           <input
-            id="UserAge"
+            id="Age"
             type="text"
-            placeholder="Age"
+            placeholder="UserAge"
             name="Name"
             className="form-control border-0 border-bottom my-2 py-3"
             onChange={handleAgeChange}
