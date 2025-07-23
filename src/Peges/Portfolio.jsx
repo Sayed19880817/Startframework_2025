@@ -56,7 +56,7 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="d-flex flex-column justify-content-center align-items-center text-navy py-5 min-vh-100 bg-white"
+      className="d-flex flex-column justify-content-center align-items-center text-navy py-5 mt-5 min-vh-100 bg-white"
     >
       <h2 className="heading text-uppercase pt-5 mt-5">PORTFOLIO COMPONENT</h2>
 
