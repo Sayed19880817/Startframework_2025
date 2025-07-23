@@ -13,18 +13,19 @@ import PageNotFound from './Component/PageNotFound';
 
 
 function App() {
-  const route = createBrowserRouter([
-    {
-      path: '/', element: <Layout />, children: [
-        { index: true, element: <Home /> },
-        { path: 'about', element: <About /> },
-        { path: 'portfolio', element: <Portfolio /> },
-        { path: 'contact', element: <Contact /> },
-        { path: '*', element: <PageNotFound/> },
-        
-      ],
-    },
-  ]);
+const route = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'about', element: <About /> },
+      { path: 'portfolio', element: <Portfolio /> },
+      { path: 'contact', element: <Contact /> },
+      { path: '*', element: <PageNotFound /> }
+    ]
+  }
+]);
 
   return (
     <>
