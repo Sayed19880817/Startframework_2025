@@ -55,23 +55,23 @@ export default function Contact() {
         <form className="w-50 p-3 mx-auto mt-5 bg-white">
           <label htmlFor="Name" className="position-relative">
             <span className={nameEmpty ? 'SlideDown' : 'SlideUp'}>
-              Name:
+              UserName:
             </span>
           </label>
           <input
             id="Name"
             type="text"
-            placeholder="Name"
+            placeholder="UserName"
             name="Name"
             className="form-control border-0 border-bottom my-2 py-3 "
             onChange={handleNameChange}
           />
 
           <label htmlFor="Age" className="position-relative top-0 ">
-            <span className={ageEmpty ? 'SlideDown' : 'SlideUp'}>Age:</span>
+            <span className={ageEmpty ? 'SlideDown' : 'SlideUp'}>UserAge:</span>
           </label>
           <input
-            id="Age"
+            id="UserAge"
             type="text"
             placeholder="Age"
             name="Name"
@@ -81,13 +81,13 @@ export default function Contact() {
 
           <label htmlFor="Email" className="position-relative top-0 ">
             <span className={emailEmpty ? 'SlideDown' : 'SlideUp'}>
-              Email:
+              UserEmail:
             </span>
           </label>
           <input
             id="Email"
             type="text"
-            placeholder="Email"
+            placeholder="UserEmail"
             name="Name"
             className="form-control border-0 border-bottom my-2 py-3 "
             onChange={handleEmailChange}
