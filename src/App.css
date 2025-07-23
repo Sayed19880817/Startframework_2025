@@ -258,3 +258,22 @@
   padding: 10px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .homePage{
+    margin-top: 20px;
+  }
+  .about 
+  {
+    text-align: center;
+  }
+  .footer-col
+  {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .w-50 
+  {
+    width: 100% !important;
+  }
+}

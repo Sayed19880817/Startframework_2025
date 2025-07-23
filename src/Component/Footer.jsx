@@ -7,12 +7,12 @@ export default function Footer() {
       <div className="footer">
         <div className="container text-center">
           <div className="row align-items-start">
-            <div className="col">
+            <div className="col-md-4">
               <h3>LOCATION</h3>
               <p className="mb-3">2215 John Daniel Drive</p>
               <p>Clark, MO 65243</p>
             </div>
-            <div className="col">
+            <div className="col-md-4 footer-col">
               <h3>AROUND THE WEB</h3>
               <div className="icons">
                 <span>
@@ -29,7 +29,7 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4">
               <h3>ABOUT FREELANCER</h3>
               <p>
                 Freelance is a free to use, licensed Bootstrap theme created by
