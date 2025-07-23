@@ -40,7 +40,6 @@ export default function Contact() {
       SetPasswordEmpty(true);
     }
   }
-  console.log(nameEmpty);
 
   return (
     <div
